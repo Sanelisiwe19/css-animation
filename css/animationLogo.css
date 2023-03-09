@@ -1,0 +1,28 @@
+#image-container {
+    width: 200px;
+    height: 300px;
+}
+
+#image-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes my-animation {
+ 0%{
+    transform: rotate(0deg);
+ }
+ 100%{
+    transform: rotate(360deg);
+ }
+    
+}
+
+.my-element {
+    animation: my-animation 2s linear infinite;
+}
+
+.color-change {
+    filter: ;
+}
